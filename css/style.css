@@ -1,0 +1,184 @@
+.nav1 {
+    background-color: #082B59; 
+    color: #F2F2F2;
+    border-bottom-style: solid;
+    border-width: thick;
+    border-color: #D98555;
+    margin-bottom: 3rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  nav a:hover {
+    color: #D98555;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 3rem;
+  }
+  
+  .menus {
+    text-align: right;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .logo {
+    text-align: left;
+    max-width: 8%;
+    margin: 1rem 0rem -3rem 3rem;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .background {
+    background: url(/images/gulp-bottom-beans.jpg) bottom repeat-x;
+  }
+
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    margin: 0rem 0rem 1.5rem 4rem;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  p {
+    line-height: 2;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-left: 4rem;
+    width: 80%;
+    text-align: left;
+  }
+  
+  .sf-link {
+  color: #59331D;
+  }
+  
+  .sf-link:hover {
+    color: #D98555;
+  }
+  
+  .about-image {
+    border: none;
+    border-radius: 10px;
+    margin: 0rem 25rem 20rem 4rem;
+    max-width: 400px;
+  }
+
+  .home-image {
+    border: none;
+    border-radius: 10px;
+    margin: 1rem -5rem 20rem 22rem;
+    max-width: 500px;
+  }
+  
+  .cafe-menu {
+    border: none;
+    border-radius: 10px;
+    margin: -1rem 10rem 20rem 32rem;
+    max-width: 400px;
+  }
+
+  .button {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    border: none;
+    margin-left: 4rem;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .button-link {
+    color: white;
+    text-decoration: none;
+    background-color: #59331D;
+    display: block;
+    padding: 16px;
+    border-radius: 10px;
+  }
+  
+  .button-link:hover {
+    background-color: #D98555;
+    color: #082B59;
+  }
+  
+  .prodcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0rem 4rem 0rem 4rem;
+  }
+
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0rem -5rem 0rem 0rem;
+  }
+
+  .grid-item {
+    font-family: 'Lato', sans-serif;
+    padding-right: 4rem;
+    line-height: 2;
+  }
+
+  .grid-image {
+    border: none;
+    border-radius: 10px;
+    max-width: 40rem;
+    align: center;
+  }
+
+  .phone {
+    text-decoration: none;
+    color: #59331d;
+  }
+  
+  .phone:hover {
+    color: #D98555;
+  }
+
+  .margin-product {
+    margin-bottom: 30rem;
+  }
+
+  footer {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    background-color: #082B59;
+    color: #F2F2F2;
+    border: 10px;
+    padding: 1rem;
+    line-height: 2;
+  }
+  
+  .fa-facebook, .fa-x-twitter, .fa-instagram {
+    color: white;
+  }
+  
+  .fa-facebook:hover, .fa-x-twitter:hover, .fa-instagram:hover {
+    color: #D98555;
+  }
+  
+  footer a {
+    text-decoration: none;
+  }
+
+@media (max-width: 1280px) {
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0rem -5rem 0rem 0rem;
+}
